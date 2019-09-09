@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67122D1E232676170042E0C7 /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67122D1D232676170042E0C7 /* Cordinator.swift */; };
 		6796AA352326685700838D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6796AA342326685700838D20 /* AppDelegate.swift */; };
 		6796AA372326685700838D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6796AA362326685700838D20 /* ViewController.swift */; };
 		6796AA3A2326685700838D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6796AA382326685700838D20 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67122D1D232676170042E0C7 /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 		6796AA312326685700838D20 /* GitLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6796AA342326685700838D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6796AA362326685700838D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67122D1C232675FD0042E0C7 /* Cordinator */ = {
+			isa = PBXGroup;
+			children = (
+				67122D1D232676170042E0C7 /* Cordinator.swift */,
+			);
+			path = Cordinator;
+			sourceTree = "<group>";
+		};
 		6796AA282326685700838D20 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				6796AA342326685700838D20 /* AppDelegate.swift */,
+				67122D1C232675FD0042E0C7 /* Cordinator */,
 				6796AA362326685700838D20 /* ViewController.swift */,
 				6796AA382326685700838D20 /* Main.storyboard */,
 				6796AA3B2326685800838D20 /* Assets.xcassets */,
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67122D1E232676170042E0C7 /* Cordinator.swift in Sources */,
 				6796AA372326685700838D20 /* ViewController.swift in Sources */,
 				6796AA352326685700838D20 /* AppDelegate.swift in Sources */,
 			);
